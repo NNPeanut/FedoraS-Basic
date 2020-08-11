@@ -1,0 +1,517 @@
+--- Made By Peanut#6952 ---
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TopBar = Instance.new("Frame")
+local FedoraSText = Instance.new("TextLabel")
+local FedoraSType = Instance.new("TextLabel")
+local Slogan = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local FreepAIDText = Instance.new("TextLabel")
+local InfiniteJumpButton = Instance.new("TextButton")
+local FlyButton = Instance.new("TextButton")
+local NoClipButton = Instance.new("TextButton")
+local SpeedToggleButton = Instance.new("TextButton")
+local BtoolsButton = Instance.new("TextButton")
+local CTRLClickTPButton = Instance.new("TextButton")
+local PaidText = Instance.new("TextLabel")
+local UniversalESPButton = Instance.new("TextButton")
+local SynapseXChatLoggerButton = Instance.new("TextButton")
+local OpenFrame = Instance.new("Frame")
+local OFMid = Instance.new("Frame")
+local OpenButton = Instance.new("TextButton")
+
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 2
+Main.Position = UDim2.new(0.404688478, 0, 0.291154802, 0)
+Main.Size = UDim2.new(0, 492, 0, 258)
+Main.Visible = true
+Main.Draggable =  true
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Main
+TopBar.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+TopBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopBar.BorderSizePixel = 2
+TopBar.Size = UDim2.new(0, 492, 0, 49)
+
+FedoraSText.Name = "FedoraS-Text"
+FedoraSText.Parent = TopBar
+FedoraSText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FedoraSText.BackgroundTransparency = 1.000
+FedoraSText.Size = UDim2.new(0, 199, 0, 47)
+FedoraSText.Font = Enum.Font.GothamBlack
+FedoraSText.Text = "FedoraS "
+FedoraSText.TextColor3 = Color3.fromRGB(255, 85, 0)
+FedoraSText.TextSize = 47.000
+
+FedoraSType.Name = "FedoraSType"
+FedoraSType.Parent = FedoraSText
+FedoraSType.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FedoraSType.BackgroundTransparency = 1.000
+FedoraSType.Position = UDim2.new(0.854593515, 0, 0.527755141, 0)
+FedoraSType.Size = UDim2.new(0, 60, 0, 15)
+FedoraSType.Font = Enum.Font.GothamBlack
+FedoraSType.Text = "Basic"
+FedoraSType.TextColor3 = Color3.fromRGB(255, 85, 0)
+FedoraSType.TextSize = 14.000
+
+Slogan.Name = "Slogan"
+Slogan.Parent = FedoraSText
+Slogan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slogan.BackgroundTransparency = 1.000
+Slogan.Position = UDim2.new(0.259806424, 0, 0.833287001, 0)
+Slogan.Size = UDim2.new(0, 200, 0, 7)
+Slogan.Font = Enum.Font.GothamBlack
+Slogan.Text = "Keep It Simple And Easy"
+Slogan.TextColor3 = Color3.fromRGB(255, 85, 0)
+Slogan.TextSize = 11.000
+
+TextLabel.Parent = TopBar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.546747923, 0, 0.346938759, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.Text = "Made By : Peanut#6952"
+TextLabel.TextColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel.TextSize = 12.000
+
+TextButton.Parent = TopBar
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 2
+TextButton.Position = UDim2.new(0.92479676, 0, 0.183673471, 0)
+TextButton.Size = UDim2.new(0, 31, 0, 30)
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = ">"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 28.000
+TextButton.MouseButton1Down:connect(function()
+OpenFrame.Visible = true
+Main.Visible = false
+end)
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.189922482, 0)
+ScrollingFrame.Size = UDim2.new(0, 492, 0, 207)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 308.478271)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 2.5, 0)
+ScrollingFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+FreepAIDText.Name = "Free/pAID Text"
+FreepAIDText.Parent = ScrollingFrame
+FreepAIDText.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+FreepAIDText.BackgroundTransparency = 1.000
+FreepAIDText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FreepAIDText.Position = UDim2.new(0.0467479676, 0, 0.040215496, 0)
+FreepAIDText.Size = UDim2.new(0, 463, 0, 17)
+FreepAIDText.Font = Enum.Font.GothamBlack
+FreepAIDText.Text = "----------------------------Free/Paid Executor Scripts----------------------------"
+FreepAIDText.TextColor3 = Color3.fromRGB(255, 85, 0)
+FreepAIDText.TextSize = 14.000
+
+InfiniteJumpButton.Name = "Infinite Jump Button"
+InfiniteJumpButton.Parent = ScrollingFrame
+InfiniteJumpButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+InfiniteJumpButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+InfiniteJumpButton.Position = UDim2.new(0.0467479676, 0, 0.0923092663, 0)
+InfiniteJumpButton.Size = UDim2.new(0, 463, 0, 50)
+InfiniteJumpButton.Font = Enum.Font.GothamBlack
+InfiniteJumpButton.Text = "Infinite Jump"
+InfiniteJumpButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+InfiniteJumpButton.TextSize = 14.000
+InfiniteJumpButton.MouseButton1Down:connect(function()
+_G.mj = true
+lp = game.Players.LocalPlayer
+
+while wait(0.1) do
+    if _G.mj == true and game:GetService('UserInputService'):IsKeyDown(Enum.KeyCode.Space) == true then
+        lp.Character:FindFirstChildOfClass('Humanoid'):ChangeState(3)
+    end
+end
+end)
+
+FlyButton.Name = "Fly Button"
+FlyButton.Parent = ScrollingFrame
+FlyButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+FlyButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+FlyButton.Position = UDim2.new(0.0467479676, 0, 0.188045695, 0)
+FlyButton.Size = UDim2.new(0, 463, 0, 50)
+FlyButton.Font = Enum.Font.GothamBlack
+FlyButton.Text = "Fly (Press E)"
+FlyButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+FlyButton.TextSize = 14.000
+FlyButton.MouseButton1Down:connect(function()
+--[[ Press "E" to toggle fly - from noobhaxx scripts folder.
+]]
+repeat wait()
+   until game:service'Players'.LocalPlayer and game:service'Players'.LocalPlayer.Character and game:service'Players'.LocalPlayer.Character:findFirstChild("HumanoidRootPart") and game:service'Players'.LocalPlayer.Character:findFirstChild("Humanoid")
+local mouse = game:service'Players'.LocalPlayer:GetMouse()
+repeat wait() until mouse
+local plr = game:service'Players'.LocalPlayer
+local HumanoidRootPart = plr.Character.HumanoidRootPart
+local flying = true
+local deb = true
+local ctrl = {f = 0, b = 0, l = 0, r = 0}
+local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+local maxspeed = 50
+local speed = 0
+
+function Fly()
+local bg = Instance.new("BodyGyro", HumanoidRootPart)
+bg.P = 9e4
+bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+bg.cframe = HumanoidRootPart.CFrame
+local bv = Instance.new("BodyVelocity", HumanoidRootPart)
+bv.velocity = Vector3.new(0,0.1,0)
+bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+repeat wait()
+plr.Character.Humanoid.PlatformStand = true
+if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+speed = speed+.5+(speed/maxspeed)
+if speed > maxspeed then
+speed = maxspeed
+end
+elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+speed = speed-1
+if speed < 0 then
+speed = 0
+end
+end
+if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+bv.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - workspace.CurrentCamera.CoordinateFrame.p))*speed
+lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+bv.velocity = ((workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - workspace.CurrentCamera.CoordinateFrame.p))*speed
+else
+bv.velocity = Vector3.new(0,0.1,0)
+end
+bg.cframe = workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+until not flying
+ctrl = {f = 0, b = 0, l = 0, r = 0}
+lastctrl = {f = 0, b = 0, l = 0, r = 0}
+speed = 0
+bg:Destroy()
+bv:Destroy()
+plr.Character.Humanoid.PlatformStand = false
+end
+mouse.KeyDown:connect(function(key)
+if key:lower() == "e" then
+if flying then flying = false
+else
+flying = true
+Fly()
+end
+elseif key:lower() == "w" then
+ctrl.f = 1
+elseif key:lower() == "s" then
+ctrl.b = -1
+elseif key:lower() == "a" then
+ctrl.l = -1
+elseif key:lower() == "d" then
+ctrl.r = 1
+end
+end)
+mouse.KeyUp:connect(function(key)
+if key:lower() == "w" then
+ctrl.f = 0
+elseif key:lower() == "s" then
+ctrl.b = 0
+elseif key:lower() == "a" then
+ctrl.l = 0
+elseif key:lower() == "d" then
+ctrl.r = 0
+end
+end)
+Fly()
+end)
+
+NoClipButton.Name = "NoClipButton"
+NoClipButton.Parent = ScrollingFrame
+NoClipButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+NoClipButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+NoClipButton.Position = UDim2.new(0.0467479676, 0, 0.282231778, 0)
+NoClipButton.Size = UDim2.new(0, 463, 0, 50)
+NoClipButton.Font = Enum.Font.GothamBlack
+NoClipButton.Text = "Noclip (Press N)"
+NoClipButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+NoClipButton.TextSize = 14.000
+NoClipButton.MouseButton1Down:connect(function()
+--{ Press 'N' To Use No Clip }--
+noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+
+if key == "n" then
+noclip = not noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+print('Noclip Loaded')
+print('Press "N" To Use Noclip')
+end)
+
+SpeedToggleButton.Name = "SpeedToggle Button"
+SpeedToggleButton.Parent = ScrollingFrame
+SpeedToggleButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+SpeedToggleButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+SpeedToggleButton.Position = UDim2.new(0.0467479676, 0, 0.376805425, 0)
+SpeedToggleButton.Size = UDim2.new(0, 463, 0, 50)
+SpeedToggleButton.Font = Enum.Font.GothamBlack
+SpeedToggleButton.Text = "Speed (K = Slower, L = Faster)"
+SpeedToggleButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+SpeedToggleButton.TextSize = 14.000
+SpeedToggleButton.MouseButton1Down:connect(function()
+--[[Speed Script
+K to slow down
+L to speed up
+Enjoy!]]
+local UIS = game:GetService("UserInputService")
+
+UIS.InputBegan:Connect(function(input)
+    if input.keyCode == Enum.KeyCode.L
+    then
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed + 5
+	elseif input.keyCode == Enum.KeyCode.K
+	then
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = game.Players.LocalPlayer.Character.Humanoid.WalkSpeed - 5
+    end
+end)
+end)
+
+BtoolsButton.Name = "BtoolsButton"
+BtoolsButton.Parent = ScrollingFrame
+BtoolsButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+BtoolsButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+BtoolsButton.Position = UDim2.new(0.0467479676, 0, 0.469828665, 0)
+BtoolsButton.Size = UDim2.new(0, 463, 0, 50)
+BtoolsButton.Font = Enum.Font.GothamBlack
+BtoolsButton.Text = "Btools"
+BtoolsButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+BtoolsButton.TextSize = 14.000
+BtoolsButton.MouseButton1Down:connect(function()
+for i=2,4 do
+    local btool = Instance.new("HopperBin")
+    btool.BinType=i
+    btool.Parent=game:service'Players'.LocalPlayer.Backpack
+end
+
+mouse = game:service'Players'.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Unlock tool"
+tool.Activated:connect(function()
+    if mouse.Target:IsA("BasePart") then
+        mouse.Target.Locked=false
+        print("Unlocked "..mouse.Target:GetFullName())
+    end
+end)
+tool.Parent = game:service'Players'.LocalPlayer.Backpack
+end)
+
+CTRLClickTPButton.Name = "CTRL + Click TP Button"
+CTRLClickTPButton.Parent = ScrollingFrame
+CTRLClickTPButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+CTRLClickTPButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+CTRLClickTPButton.Position = UDim2.new(0.0467479676, 0, 0.564402401, 0)
+CTRLClickTPButton.Size = UDim2.new(0, 463, 0, 50)
+CTRLClickTPButton.Font = Enum.Font.GothamBlack
+CTRLClickTPButton.Text = "CTRL + Click to TP"
+CTRLClickTPButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+CTRLClickTPButton.TextSize = 14.000
+CTRLClickTPButton.MouseButton1Down:connect(function()
+local Plr = game:GetService("Players").LocalPlayer
+local Mouse = Plr:GetMouse()
+ 
+Mouse.Button1Down:connect(function()
+if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.LeftControl) then return end
+if not Mouse.Target then return end
+Plr.Character:MoveTo(Mouse.Hit.p)
+end)
+end)
+
+PaidText.Name = "Paid Text"
+PaidText.Parent = ScrollingFrame
+PaidText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PaidText.BackgroundTransparency = 1.000
+PaidText.Position = UDim2.new(0.0467479676, 0, 0.656132996, 0)
+PaidText.Size = UDim2.new(0, 463, 0, 22)
+PaidText.Font = Enum.Font.GothamBlack
+PaidText.Text = "--------------------------Paid Executor Scipts--------------------------"
+PaidText.TextColor3 = Color3.fromRGB(255, 85, 0)
+PaidText.TextSize = 15.000
+
+UniversalESPButton.Name = "UniversalESP Button"
+UniversalESPButton.Parent = ScrollingFrame
+UniversalESPButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+UniversalESPButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+UniversalESPButton.Position = UDim2.new(0.0467479676, 0, 0.693472087, 0)
+UniversalESPButton.Size = UDim2.new(0, 463, 0, 50)
+UniversalESPButton.Font = Enum.Font.GothamBlack
+UniversalESPButton.Text = "Universal Esp"
+UniversalESPButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+UniversalESPButton.TextSize = 14.000
+UniversalESPButton.MouseButton1Down:connect(function()
+--[[https://github.com/ic3w0lf22/Unnamed-ESP, IC3 unnamed esp by ic3w0lf22.
+this is the way better one synapse x has in its script hub.
+]]
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))()
+end)
+
+SynapseXChatLoggerButton.Name = "Synapse X Chat Logger Button"
+SynapseXChatLoggerButton.Parent = ScrollingFrame
+SynapseXChatLoggerButton.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+SynapseXChatLoggerButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+SynapseXChatLoggerButton.Position = UDim2.new(0.0467479676, 0, 0.784944952, 0)
+SynapseXChatLoggerButton.Size = UDim2.new(0, 463, 0, 50)
+SynapseXChatLoggerButton.Font = Enum.Font.GothamBlack
+SynapseXChatLoggerButton.Text = "Synapse X Chat Logger"
+SynapseXChatLoggerButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+SynapseXChatLoggerButton.TextSize = 14.000
+SynapseXChatLoggerButton.MouseButton1Down:connect(function()
+--[[only works with synapse x, since it uses the synapse api
+]]--
+if not getgenv().executed then
+   spawn(function()
+       for i,e621 in pairs(game.Players:GetChildren()) do
+           e621.Chatted:Connect(function(furaffinity)
+               if furaffinity:sub(1,2):lower() == "/w" then
+                   rconsoleprint("@@CYAN@@")
+                   rconsoleprint(tostring("Private Message " ..e621.name ..": ") ..furaffinity .."\n")
+               elseif furaffinity:sub(1,2):lower() == "/e" then
+                   rconsoleprint("@@BROWN@@")
+                   rconsoleprint(tostring("Emote " ..e621.name ..": ") ..furaffinity .."\n")
+               else
+                   rconsoleprint("@@WHITE@@")
+                   rconsoleprint(tostring(e621.Name ..": ") ..furaffinity .."\n")
+               end
+           end)
+       end
+       game.Players.PlayerAdded:Connect(function(transfurmationyiff)
+           p = transfurmationyiff
+           rconsoleprint("@@GREEN@@")
+           rconsoleprint(tostring(tostring(p.Name) .." Joined!, Userid: " ..tostring(p.UserId) ..", Name: "..tostring(p.Name) ..", Device: " ..tostring(p.OsPlatform) ..", AccountAge: " ..tostring(p.AccountAge) .."\n"))
+           transfurmationyiff.Chatted:Connect(function(salembad)
+               if salembad:sub(1,2):lower() == "/w" then
+                   rconsoleprint("@@CYAN@@")
+                   rconsoleprint(tostring("Private Message " ..transfurmationyiff.name ..": ") ..salembad .."\n")
+               elseif salembad:sub(1,2):lower() == "/e" then
+                   rconsoleprint("@@BROWN@@")
+                   rconsoleprint(tostring("Emote " ..transfurmationyiff.name ..": ") ..salembad .."\n")
+               else
+                   rconsoleprint("@@WHITE@@")
+                   rconsoleprint(tostring(transfurmationyiff.Name ..": ") ..salembad .."\n")
+               end
+           end)
+       end)
+   end)
+           rconsoleprint("@@RED@@")
+           rconsoleprint("Loaded! \nPlease note this does not log the chat remote! Only .Chatted! \n")
+game.Players.PlayerRemoving:Connect(function(lucario)
+   rconsoleprint("@@RED@@")
+   rconsoleprint(tostring(lucario) .." Left!" .."\n")
+end)
+   getgenv().executed = true
+else
+   rconsoleprint("@@RED@@")
+   rconsoleprint("Already Executed!" .."\n")
+end
+end)
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = ScreenGui
+OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+OpenFrame.BorderSizePixel = 0
+OpenFrame.Position = UDim2.new(0.00300000003, 0, 0.867321849, 0)
+OpenFrame.Size = UDim2.new(0, 117, 0, 39)
+OpenFrame.Visible = false
+
+OFMid.Name = "OFMid"
+OFMid.Parent = OpenFrame
+OFMid.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+OFMid.BorderSizePixel = 0
+OFMid.Position = UDim2.new(0.0256410278, 0, 0.0769231319, 0)
+OFMid.Size = UDim2.new(0, 110, 0, 33)
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = OFMid
+OpenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenButton.BackgroundTransparency = 1.000
+OpenButton.Size = UDim2.new(0, 110, 0, 33)
+OpenButton.Font = Enum.Font.GothamBlack
+OpenButton.Text = "Open"
+OpenButton.TextColor3 = Color3.fromRGB(255, 85, 0)
+OpenButton.TextSize = 24.000
+OpenButton.TextWrapped = true
+OpenButton.MouseButton1Down:connect(function()
+Main.Visible = true
+OpenFrame.Visible = false
+end)
+
+
+
+
+
+local function SDYRRZV_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	 
+	local Main = script.Parent
+	 
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	 
+	local function update(input)
+	    local delta = input.Position - dragStart
+	    Main.Position = Main:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	 
+	Main.InputBegan:Connect(function(input)
+	    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+	        dragging = true
+	        dragStart = input.Position
+	        startPos = Main.Position
+	       
+	        input.Changed:Connect(function()
+	            if input.UserInputState == Enum.UserInputState.End then
+	                dragging = false
+	            end
+	        end)
+	    end
+	end)
+	 
+	Main.InputChanged:Connect(function(input)
+	    if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	        dragInput = input
+	    end
+	end)
+	 
+	UserInputService.InputChanged:Connect(function(input)
+	    if input == dragInput and dragging then
+	        update(input)
+	    end
+	end)
+end
+coroutine.wrap(SDYRRZV_fake_script)()
